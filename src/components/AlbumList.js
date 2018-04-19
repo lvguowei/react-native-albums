@@ -4,6 +4,10 @@ import {Text, View} from "react-native";
 
 class AlbumList extends Component {
 
+    componentWillMount() {
+        console.log('asdf');
+    }
+
     render() {
         return (
             <View>
