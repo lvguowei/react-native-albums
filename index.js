@@ -9,7 +9,6 @@ const App = () => (
             <AlbumList/>
         </View>
 
-    )
-;
+    );
 
 AppRegistry.registerComponent('albums', () => App);
